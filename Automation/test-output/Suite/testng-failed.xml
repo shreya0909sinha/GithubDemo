@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="SmokeTesting"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="learngroupexecution.ElectronicsModule">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+          <include name="camera"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- learngroupexecution.ElectronicsModule -->
+      <class name="learngroupexecution.BookModule">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+          <include name="ramayana"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- learngroupexecution.BookModule -->
+      <class name="learngroupexecution.FashionModule">
+        <methods>
+          <include name="logOut"/>
+          <include name="login"/>
+          <include name="kurta"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- learngroupexecution.FashionModule -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

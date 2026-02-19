@@ -1,0 +1,14 @@
+<suite name="Suite">
+<groups>
+<run>
+<include name="SmokeTesting"/>
+</run>
+</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="learngroupexecution.FashionModule"/>
+      <class name="learngroupexecution.ElectronicsModule"/>
+      <class name="learngroupexecution.BookModule"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
